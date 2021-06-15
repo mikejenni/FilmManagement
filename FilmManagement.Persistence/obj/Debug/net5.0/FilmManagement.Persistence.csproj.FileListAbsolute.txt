@@ -1,0 +1,12 @@
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.Persistence\bin\Debug\net5.0\FilmManagement.Persistence.deps.json
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.Persistence\bin\Debug\net5.0\FilmManagement.Persistence.dll
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.Persistence\bin\Debug\net5.0\ref\FilmManagement.Persistence.dll
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.Persistence\bin\Debug\net5.0\FilmManagement.Persistence.pdb
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.Persistence\obj\Debug\net5.0\FilmManagement.Persistence.csprojAssemblyReference.cache
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.Persistence\obj\Debug\net5.0\FilmManagement.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.Persistence\obj\Debug\net5.0\FilmManagement.Persistence.AssemblyInfoInputs.cache
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.Persistence\obj\Debug\net5.0\FilmManagement.Persistence.AssemblyInfo.cs
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.Persistence\obj\Debug\net5.0\FilmManagement.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.Persistence\obj\Debug\net5.0\FilmManagement.Persistence.dll
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.Persistence\obj\Debug\net5.0\ref\FilmManagement.Persistence.dll
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.Persistence\obj\Debug\net5.0\FilmManagement.Persistence.pdb

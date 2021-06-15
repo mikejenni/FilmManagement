@@ -1,0 +1,15 @@
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.Business\bin\Debug\net5.0\FilmManagement.Business.deps.json
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.Business\bin\Debug\net5.0\FilmManagement.Business.dll
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.Business\bin\Debug\net5.0\ref\FilmManagement.Business.dll
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.Business\bin\Debug\net5.0\FilmManagement.Business.pdb
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.Business\obj\Debug\net5.0\FilmManagement.Business.csprojAssemblyReference.cache
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.Business\obj\Debug\net5.0\FilmManagement.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.Business\obj\Debug\net5.0\FilmManagement.Business.AssemblyInfoInputs.cache
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.Business\obj\Debug\net5.0\FilmManagement.Business.AssemblyInfo.cs
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.Business\obj\Debug\net5.0\FilmManagement.Business.csproj.CoreCompileInputs.cache
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.Business\obj\Debug\net5.0\FilmManagement.Business.dll
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.Business\obj\Debug\net5.0\ref\FilmManagement.Business.dll
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.Business\obj\Debug\net5.0\FilmManagement.Business.pdb
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.Business\bin\Debug\net5.0\FilmManagement.Persistence.dll
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.Business\bin\Debug\net5.0\FilmManagement.Persistence.pdb
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.Business\obj\Debug\net5.0\FilmManagement.Business.csproj.CopyComplete
