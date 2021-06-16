@@ -1,0 +1,15 @@
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.UI\bin\Debug\FilmManagement.UI.exe.config
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.UI\bin\Debug\FilmManagement.UI.exe
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.UI\bin\Debug\FilmManagement.UI.pdb
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.UI\obj\Debug\FilmManagement.UI.csprojAssemblyReference.cache
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.UI\obj\Debug\MainWindow.g.cs
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.UI\obj\Debug\App.g.cs
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.UI\obj\Debug\FilmManagement.UI_MarkupCompile.cache
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.UI\obj\Debug\FilmManagement.UI_MarkupCompile.lref
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.UI\obj\Debug\MainWindow.baml
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.UI\obj\Debug\FilmManagement.UI.g.resources
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.UI\obj\Debug\FilmManagement.UI.Properties.Resources.resources
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.UI\obj\Debug\FilmManagement.UI.csproj.GenerateResource.cache
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.UI\obj\Debug\FilmManagement.UI.csproj.CoreCompileInputs.cache
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.UI\obj\Debug\FilmManagement.UI.exe
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.UI\obj\Debug\FilmManagement.UI.pdb
