@@ -1,0 +1,12 @@
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.Persistence\obj\Debug\FilmManagement.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.Persistence\bin\Debug\FilmManagement.Persistence.dll.config
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.Persistence\bin\Debug\FilmManagement.Persistence.dll
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.Persistence\bin\Debug\FilmManagement.Persistence.pdb
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.Persistence\bin\Debug\EntityFramework.dll
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.Persistence\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.Persistence\bin\Debug\EntityFramework.xml
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.Persistence\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.Persistence\obj\Debug\FilmManagement.Persistence.csproj.CopyComplete
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.Persistence\obj\Debug\FilmManagement.Persistence.dll
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.Persistence\obj\Debug\FilmManagement.Persistence.pdb
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.Persistence\obj\Debug\FilmManagement.Persistence.csprojAssemblyReference.cache

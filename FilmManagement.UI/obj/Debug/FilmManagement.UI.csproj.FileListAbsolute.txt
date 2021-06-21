@@ -13,3 +13,16 @@ C:\Users\Micha\source\repos\FilmManagement\FilmManagement.UI\obj\Debug\FilmManag
 C:\Users\Micha\source\repos\FilmManagement\FilmManagement.UI\obj\Debug\FilmManagement.UI.csproj.CoreCompileInputs.cache
 C:\Users\Micha\source\repos\FilmManagement\FilmManagement.UI\obj\Debug\FilmManagement.UI.exe
 C:\Users\Micha\source\repos\FilmManagement\FilmManagement.UI\obj\Debug\FilmManagement.UI.pdb
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.UI\bin\Debug\FilmManagement.Business.dll
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.UI\bin\Debug\FilmManagement.Persistence.dll
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.UI\bin\Debug\EntityFramework.dll
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.UI\bin\Debug\FilmManagement.Business.pdb
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.UI\bin\Debug\FilmManagement.Persistence.pdb
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.UI\bin\Debug\FilmManagement.Persistence.dll.config
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.UI\bin\Debug\EntityFramework.xml
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.UI\obj\Debug\FilmManagement.UI.csproj.CopyComplete
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.UI\obj\Debug\Views\FilmManagementView.g.cs
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.UI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.UI\obj\Debug\Views\FilmManagementView.baml
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.UI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.UI\bin\Debug\EntityFramework.SqlServer.xml

@@ -69,9 +69,13 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>FilmManagement.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Database\FilmRepository.cs" />
     <Compile Include="Database\Genre.cs">
       <DependentUpon>FilmManagement.tt</DependentUpon>
     </Compile>
+    <Compile Include="Database\GenreRepository.cs" />
+    <Compile Include="Database\IFilmService.cs" />
+    <Compile Include="Database\IGenreService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

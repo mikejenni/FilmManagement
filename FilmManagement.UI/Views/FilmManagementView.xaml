@@ -1,0 +1,101 @@
+﻿<Window x:Class="FilmManagement.UI.Views.FilmManagementView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FilmManagement.UI.Views"
+        xmlns:ViewModel="clr-namespace:FilmManagement.UI.ViewModels"
+        mc:Ignorable="d"
+        Title="FilmManagement" Height="330" MinHeight="320" Width="950" MinWidth="950"
+        Icon="/FilmManagement.UI;component/Icon/Film-Shooting-01.ico">
+    <Window.DataContext>
+        <ViewModel:FilmManagementViewModel/>
+    </Window.DataContext>
+    <Window.InputBindings >
+        <KeyBinding  Key="Enter"  Command="{Binding Search}"/>
+    </Window.InputBindings>
+    <Window.Resources>
+        <ViewModel:FilmManagementViewModel x:Key="ViewModel"/>
+        <Style x:Key="ToggleButtonStyle"  TargetType="{x:Type Button}">
+            <Style.Triggers>
+                <Trigger Property="Background" Value="Green">
+                    <Setter Property="Foreground" Value="White"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+
+    <Grid DataContext="{StaticResource ViewModel}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="120"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="120"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="200"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Label x:Name="LblName" Grid.Row="0" Grid.Column="0" Content="Name" Margin="5,5,0,0"/>
+        <Button x:Name="BtnNewEntry" Grid.Row="0" Grid.Column="5" Content="Neuer Eintrag" Margin="5,0" Height="25" VerticalAlignment="Bottom" 
+                Style="{StaticResource ToggleButtonStyle}" Background="{Binding NewEntryBackground}" Command="{Binding NewEntry}" />
+        <TextBox x:Name="TxbSearch" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" Margin="5,0,0,0" IsEnabled="{Binding IsEnabled}" Text="{Binding SearchWord, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+        <Button x:Name="BtnSearch" Grid.Row="1" Grid.Column="3" Content="Suchen" Margin="5,0,5,0" IsEnabled="{Binding IsEnabled}" Command="{Binding Search}"/>
+        <ListView x:Name="PersonList" Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="4" Grid.RowSpan="3" VirtualizingStackPanel.IsVirtualizing="True" VirtualizingStackPanel.VirtualizationMode="Standard" SelectionMode="Single"
+                ScrollViewer.IsDeferredScrollingEnabled="True" AlternationCount="2" Width="Auto" Margin="5,5,5,10" 
+                DataContext="{StaticResource ViewModel}"
+                ItemsSource="{Binding FilmList, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                SelectedItem="{Binding SelectedFilm, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" IsEnabled="{Binding IsEnabled}">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Film Titel" DisplayMemberBinding="{Binding TitleName, Mode=TwoWay}" Width="100" />
+                    <GridViewColumn Header="Regisseur" DisplayMemberBinding="{Binding Director, Mode=TwoWay}" Width="100"/>
+                    <GridViewColumn Header="Erscheinungsjahr" DisplayMemberBinding="{Binding ReleaseYear, Mode=TwoWay}" Width="100"/>
+                    <GridViewColumn Header="Spielzeit" DisplayMemberBinding="{Binding PlayTime, Mode=TwoWay}" Width="100"/>
+                    <GridViewColumn Header="Bewertung" DisplayMemberBinding="{Binding Rating, Mode=TwoWay}" Width="100"/>
+                    <GridViewColumn Header="Genre" DisplayMemberBinding="{Binding GenreName, Mode=TwoWay}" Width="100"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <GroupBox x:Name="GrpFilmManagement" Grid.Row="1" Grid.Column="4" Grid.RowSpan="2" Grid.ColumnSpan="2" Margin="0,0,5,5">
+            <GroupBox.Header>
+                <TextBlock Text="Film"  VerticalAlignment="Bottom"/>
+            </GroupBox.Header>
+            <Grid DataContext="{StaticResource ViewModel}">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="65"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="30"/>
+                </Grid.RowDefinitions>
+                <Label x:Name="LblPersName" Grid.Row="0" Grid.Column="0" Content="Film Titel" />
+                <TextBox x:Name="TxbPersName" Grid.Row="0" Grid.Column="1" Margin="5" Text="{Binding SelectedFilm.TitleName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                <Label x:Name="LblPersSecondName" Grid.Row="1" Grid.Column="0" Content="Regisseur"/>
+                <TextBox x:Name="TxbPersSecondName" Grid.Row="1" Grid.Column="1" Margin="5" Text="{Binding SelectedFilm.Director, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                <Label x:Name="LblPersStreet" Grid.Row="2" Grid.Column="0" Content="Erscheinungsjahr"/>
+                <TextBox x:Name="TxbPersStreet" Grid.Row="2" Grid.Column="1" Margin="5" Text="{Binding SelectedFilm.ReleaseYear, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                <Label x:Name="LblPersPlz" Grid.Row="3" Grid.Column="0" Content="Spielzeit"/>
+                <TextBox x:Name="TxbPersPlz" Grid.Row="3" Grid.Column="1" Margin="5" Text="{Binding SelectedFilm.PlayTime, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                <Label x:Name="LblPersPlace" Grid.Row="4" Grid.Column="0" Content="Bewertung"/>
+                <TextBox x:Name="TxbPersPlace" Grid.Row="4" Grid.Column="1" Margin="5" Text="{Binding SelectedFilm.Rating, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                <Label x:Name="LblPersWorkPlace" Grid.Row="5" Grid.Column="0" Content="Genre"/>
+                <ComboBox x:Name="TxbPersWorkPlace" Grid.Row="5" Grid.Column="1" Margin="5" 
+                          ItemsSource="{Binding GenreListNamen, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                          Text="{Binding SelectedFilm.GenreName, Mode=TwoWay}"/>
+            </Grid>
+        </GroupBox>
+        <Button x:Name="BtnSave" Grid.Row="3" Grid.Column="5" Content="Speichern" Margin="5,0,5,5" Command="{Binding Save}"/>
+        <Button x:Name="BtnDelete" Grid.Row="3" Grid.Column="4" Width="120" Content="Löschen" Margin="5,0,5,5" HorizontalAlignment="Right" IsEnabled="{Binding IsEnabled}" Command="{Binding Delete}"/>
+    </Grid>
+</Window>

@@ -1,0 +1,12 @@
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.Business\obj\Debug\FilmManagement.Business.csproj.CoreCompileInputs.cache
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.Business\bin\Debug\FilmManagement.Business.dll
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.Business\bin\Debug\FilmManagement.Business.pdb
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.Business\bin\Debug\FilmManagement.Persistence.dll
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.Business\bin\Debug\EntityFramework.dll
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.Business\bin\Debug\FilmManagement.Persistence.pdb
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.Business\bin\Debug\FilmManagement.Persistence.dll.config
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.Business\bin\Debug\EntityFramework.xml
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.Business\obj\Debug\FilmManagement.Business.csprojAssemblyReference.cache
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.Business\obj\Debug\FilmManagement.Business.csproj.CopyComplete
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.Business\obj\Debug\FilmManagement.Business.dll
+C:\Users\Micha\source\repos\FilmManagement\FilmManagement.Business\obj\Debug\FilmManagement.Business.pdb

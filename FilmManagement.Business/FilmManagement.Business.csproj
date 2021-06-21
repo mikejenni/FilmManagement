@@ -42,7 +42,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Models\IFilm.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\FilmValidatorService.cs" />
+    <Compile Include="Services\IFilmValidatorService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FilmManagement.Persistence\FilmManagement.Persistence.csproj">

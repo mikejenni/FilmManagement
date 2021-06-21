@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="FilmManagementModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Film">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TitleName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ReleaseYear" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Director" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PlayTime" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Rating" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="GenreId" Type="Int32" />
+    <NavigationProperty Name="Genre" Relationship="Self.FK_Film_Genre" FromRole="Film" ToRole="Genre" />
+  </EntityType>
+  <EntityType Name="Genre">
+    <Key>
+      <PropertyRef Name="GenreId" />
+    </Key>
+    <Property Name="GenreId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Film" Relationship="Self.FK_Film_Genre" FromRole="Genre" ToRole="Film" />
+  </EntityType>
+  <Association Name="FK_Film_Genre">
+    <End Role="Genre" Type="Self.Genre" Multiplicity="0..1" />
+    <End Role="Film" Type="Self.Film" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Genre">
+        <PropertyRef Name="GenreId" />
+      </Principal>
+      <Dependent Role="Film">
+        <PropertyRef Name="GenreId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="FilmManagementEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Film" EntityType="Self.Film" />
+    <EntitySet Name="Genre" EntityType="Self.Genre" />
+    <AssociationSet Name="FK_Film_Genre" Association="Self.FK_Film_Genre">
+      <End Role="Genre" EntitySet="Genre" />
+      <End Role="Film" EntitySet="Film" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
