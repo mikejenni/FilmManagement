@@ -50,7 +50,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Database\Film.cs">
       <DependentUpon>FilmManagement.tt</DependentUpon>
     </Compile>
